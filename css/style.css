@@ -1,0 +1,112 @@
+/*=================================================
+Geral
+=================================================*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: calc(12px + 0.390625vw);
+
+}
+section h2 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+/*==========================================================================
+header
+==========================================================================*/
+
+
+
+header nav ul li {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+/*========================================================================
+Banner
+========================================================================*/
+section.banner {
+    text-align: center;
+    margin: 0 5vw 0 5vw;
+}
+section.banner img {
+    width: 69%;
+}
+section.banner h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 20px 0 20px 0;
+}
+section.banner p {
+    margin: 20px 0 20px 0;
+}
+section.banner p button {
+    background: #ff6464;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+/*===================================================================
+posts
+====================================================================*/
+section.posts {
+    background-color: #EDF7FA;
+    padding: 20px 0 20px 0;
+}
+
+section.posts ul li {
+    background-color: white;
+    margin: 10px 0px 10px 0px;
+    padding: 20px 10px 20px 10px;
+}
+section.posts ul li h3 {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+section.posts ul li p {
+    font-size: 1rem;
+    margin: 15px 0px 15px 0px;
+    line-height: 1.2rem;
+}
+/*===============================================================
+works
+================================================================*/
+section.works {
+    padding: 20px 10px 20px 10px;
+}
+section.works h3 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 20px 10px 20px 10px;
+}
+section.works ul li p {
+    font-size: 1.5rem;
+    margin:  20px 5px 20px 5px;
+}
+section.works ul li p.info {
+    color: #8695a4;
+}
+section.works ul li span {
+    background: #142850;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+}

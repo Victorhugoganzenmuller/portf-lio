@@ -44,7 +44,7 @@ section.banner {
     margin: 0 5vw 0 5vw;
 }
 section.banner img {
-    width: 69%;
+    width: 900%;
 }
 section.banner h2 {
     font-weight: bold;
@@ -109,4 +109,47 @@ section.works ul li span {
     padding: 5px 10px 5px 10px;
     border-radius: 50px;
     font-weight: bold;
+}
+
+/*=================================================
+footer
+=================================================*/
+
+footer {
+    text-align: center;
+    padding: 5vw 20px 10px 20px;
+}
+footer nav p a {
+    color: #21243d;
+    font-size: 1.8rem;
+    margin: 0px 5px 0px 5px;
+}
+
+@media (min-width: 900px) {
+    header {
+        padding: 3vw 1.7vw 1.7vw 1.7vw;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: right;
+    }
+
+    header nav ul li {
+        margin: 10px 20px 0px 20px;
+    }
+
+    section.banner {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    section.banner div.texto {
+        width: 50%;
+        text-align: left;
+        padding:  0px 10vw 0 10px;
+    }
+
+    section.banner img {
+        width: 100%;
+    }
 }

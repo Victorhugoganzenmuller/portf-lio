@@ -157,7 +157,7 @@ footer nav p a {
     section.banner img {
         width: 100%;
     }
-
+}
     section.posts{
         padding: 3vw 10vw 3vw 10vw;
     }
@@ -184,4 +184,3 @@ footer nav p a {
     section.works ul li {
         margin: 0 0.7vw 0 0.7vw;
     }
-}
